@@ -3,10 +3,10 @@
 {% block Content %}
   <h3>Message Board</h3>
 
-  <ul>
-    {% for post in post_list%}
-    <li>{{post.text}}</li>
-    {% endfor %}
-  </ul>
+  {% for post in post_list%}
+    <hr>
+    <pre> {{post.text}}               {{post.due_date}}</pre>
 
+  {% endfor %}
+  <hr>
 {% endblock Content %}

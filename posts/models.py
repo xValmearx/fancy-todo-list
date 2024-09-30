@@ -9,6 +9,7 @@ from django.db import models
 # Create your models here.
 class Post(models.Model):
     text = models.TextField()
+    due_date = models.TextField(default="foobar")
 
     def __str__(self):
         return self.text[:50]
