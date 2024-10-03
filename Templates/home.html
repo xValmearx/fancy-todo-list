@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 
 {% block Header_Contents %}
-  <a href = {% url 'admin:todo_todo_add' %} target = "_blank">add</a>
+<a class="btn btn-primary" href={% url 'admin:todo_todo_add' %} target = "_blank" role="button">Add</a>
+
 {% endblock Header_Contents %}
 
 
@@ -10,8 +11,8 @@
   <hr>
   {% for todo in  todo_list%}
     <p>{{todo.name}}    {{todo.complete_by_datetime}}
-      <a href = {% url 'admin:todo_todo_change' todo.pk%} target = "_blank">edit</a>
-      <a href = {% url 'admin:todo_todo_delete' todo.pk%} target = "_blank">delete</a>
+      <a class="btn btn-success" href={% url 'admin:todo_todo_change' todo.pk%} target = "_blank" role="button">Edit</a>
+      <a class="btn btn-danger" href={% url 'admin:todo_todo_delete' todo.pk%} target = "_blank" role="button">Delete</a>
       <p>
 
     <hr>
