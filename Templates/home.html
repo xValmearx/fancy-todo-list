@@ -1,2 +1,21 @@
 {% extends "base.html" %}
 
+{% block Header_Contents %}
+  <a href = {% url 'admin:todo_todo_add' %} target = "_blank">add</a>
+{% endblock Header_Contents %}
+
+
+
+{% block content %}
+  <hr>
+  {% for todo in  todo_list%}
+    <p>{{todo.name}}    {{todo.complete_by_datetime}}
+      <a href = {% url 'admin:todo_todo_change' todo.pk%} target = "_blank">edit</a>
+      <a href = {% url 'admin:todo_todo_delete' todo.pk%} target = "_blank">delete</a>
+      <p>
+
+    <hr>
+  {% endfor %}
+
+{% endblock content %}
+
