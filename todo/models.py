@@ -8,4 +8,4 @@ class Todo(models.Model):
     complete_by_datetime = models.CharField(max_length=50)
 
     def __str__(self):
-        return self.name[50]
+        return self.name[:50]
