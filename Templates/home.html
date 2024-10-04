@@ -10,13 +10,12 @@
 {% block content %}
   <hr>
   {% for todo in  todo_list%}
-    <p>{{todo.name}}    {{todo.complete_by_datetime}}
+    <pr>{{todo.name}}    {{todo.complete_by_datetime}}
       <a class="btn btn-success" href={% url 'admin:todo_todo_change' todo.pk%} target = "_blank" role="button">Edit</a>
       <a class="btn btn-danger" href={% url 'admin:todo_todo_delete' todo.pk%} target = "_blank" role="button">Delete</a>
-      <p>
+      <pr>
 
     <hr>
   {% endfor %}
 
 {% endblock content %}
-
