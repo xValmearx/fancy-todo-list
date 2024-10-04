@@ -1,3 +1,8 @@
+# Comments at the top of each file that you add source code to with the following:
+# Caleb Taylor
+# CIS 218
+# 10/4/2024
+
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 from django.urls import reverse

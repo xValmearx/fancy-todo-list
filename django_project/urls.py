@@ -1,3 +1,8 @@
+# Comments at the top of each file that you add source code to with the following:
+# Caleb Taylor
+# CIS 218
+# 10/4/2024
+
 """django_project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:

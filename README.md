@@ -1,7 +1,9 @@
 # Assignment 2 - Todo Application
 
 ## Author
-
+# Caleb Taylor
+# CIS 218
+# 10/4/2024
 
 
 ## Description
@@ -138,6 +140,9 @@ If you have more questions regarding this, don't hesitate to ask.
 
 ## Outside Resources Used
 
+##bootstrap Buttons
+
+https://getbootstrap.com/docs/4.0/components/buttons/#:~:text=Use%20Bootstrap%E2%80%99s%20custom%20button%20styles%20for%20actions%20in%20forms,%20dialogs,
 
 
 ## Known Problems, Issues, And/Or Errors in the Program
