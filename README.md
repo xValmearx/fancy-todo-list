@@ -140,11 +140,13 @@ If you have more questions regarding this, don't hesitate to ask.
 
 ## Outside Resources Used
 
-##bootstrap Buttons
-
+## bootstrap Buttons
 https://getbootstrap.com/docs/4.0/components/buttons/#:~:text=Use%20Bootstrap%E2%80%99s%20custom%20button%20styles%20for%20actions%20in%20forms,%20dialogs,
+
+## bootstrap sticky footer with nav bar
+https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/#:~:text=Sticky%20footer%20with%20fixed%20navbar.%20Pin%20a%20fixed-height%20footer%20to
 
 
 ## Known Problems, Issues, And/Or Errors in the Program
-
+## no known problems or bugs
 
